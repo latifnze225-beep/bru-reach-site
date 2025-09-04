@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BRU REACH – OPTIMISONS VOS PROJETS</title>
+  <meta name="description" content="BRU REACH – Télécoms, Logistique, Installation, Fourniture Génie civile." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="BRU REACH – OPTIMISONS VOS PROJETS" />
+  <meta property="og:description" content="BRU REACH – Télécoms, Logistique, Installation, Fourniture Génie civile." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.votredomaine.com/" />
+  <meta property="og:image" content="https://www.votredomaine.com/og-image.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* Styles identiques à la version précédente */
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <span>BRU REACH</span>
+      </div>
+      <nav aria-label="Navigation principale">
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+        <ul id="desktopMenu">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#temoignages">Témoignages</a></li>
+          <li><a href="#contact" class="cta">Demander un devis</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="kicker">✅ Télécoms · 🚚 Logistique · 🏗️ Génie civil</span>
+        <h1 class="title">BRU REACH – <span style="background:linear-gradient(135deg,var(--brand),var(--brand-2)); -webkit-background-clip:text; background-clip:text; color:transparent">OPTIMISONS VOS PROJETS</span></h1>
+        <p class="subtitle">Nous accompagnons entreprises et institutions en <strong>Télécoms</strong>, <strong>Logistique</strong>, <strong>Installation</strong> et <strong>Fourniture Génie civile</strong>.</p>
+        <div class="badges">
+          <span class="badge">+150 clients satisfaits</span>
+          <span class="badge">Fiabilité garantie</span>
+          <span class="badge">Réponse sous 24h</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3 style="margin:0 0 8px">Obtenez votre devis gratuit</h3>
+        <p class="note">Expliquez votre besoin ; nous revenons vers vous rapidement.</p>
+        <form id="heroForm">
+          <label for="need">Votre besoin</label>
+          <input id="need" name="need" placeholder="Ex : Installation réseau + logistique" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="votrenom@email.com" required>
+          <button class="btn" type="submit">Envoyer la demande</button>
+          <p class="note">Ou contactez-nous sur <a href="https://wa.me/22792230025" target="_blank" rel="noopener">WhatsApp</a></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">Nos services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Télécoms</h3>
+          <p>Solutions de connectivité, installation et maintenance d’infrastructures.</p>
+        </div>
+        <div class="card">
+          <h3>Logistique</h3>
+          <p>Transport, distribution et gestion de vos flux de marchandises.</p>
+        </div>
+        <div class="card">
+          <h3>Installation</h3>
+          <p>Mise en place d’équipements techniques et solutions adaptées.</p>
+        </div>
+        <div class="card">
+          <h3>Fourniture Génie civile</h3>
+          <p>Matériaux, équipements et services pour vos projets de construction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="apropos">
+    <div class="container about">
+      <div>
+        <h2 class="section-title">À propos de BRU REACH</h2>
+        <p class="section-sub">Notre mission : optimiser vos projets grâce à notre expertise multisectorielle.</p>
+        <div class="card">
+          <p>Depuis sa création, <strong>BRU REACH</strong> accompagne des entreprises et institutions au Niger et ailleurs, en apportant des solutions fiables et sur mesure.</p>
+        </div>
+      </div>
+      <div class="img" role="img" aria-label="Équipe BRU REACH"></div>
+    </div>
+  </section>
+
+  <!-- Témoignages -->
+  <section id="temoignages">
+    <div class="container">
+      <h2 class="section-title">Ils nous font confiance</h2>
+      <p class="section-sub">Quelques retours de nos clients.</p>
+      <div class="testis">
+        <div class="quote">
+          <p>“BRU REACH nous a accompagné dans un projet télécom de grande ampleur. Sérieux et efficacité.”</p>
+          <div class="name">Aïcha K.</div>
+          <div class="role">Directrice – AgroTech</div>
+        </div>
+        <div class="quote">
+          <p>“Excellente logistique, nos délais ont été respectés à 100%. Bravo à l’équipe.”</p>
+          <div class="name">Moussa T.</div>
+          <div class="role">CEO – Sahel Services</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container contact">
+      <div>
+        <h2 class="section-title">Contactez-nous</h2>
+        <form id="contactForm">
+          <div>
+            <label for="fullname">Nom complet</label>
+            <input id="fullname" name="fullname" placeholder="Votre nom" required>
+          </div>
+          <div>
+            <label for="email2">Email</label>
+            <input id="email2" name="email" type="email" placeholder="vous@exemple.com" required>
+          </div>
+          <div>
+            <label for="phone">Téléphone (WhatsApp)</label>
+            <input id="phone" name="phone" type="tel" placeholder="+227 92 23 00 25">
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Décrivez votre besoin…" required></textarea>
+          </div>
+          <button class="btn" type="submit">Envoyer</button>
+        </form>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">Coordonnées</h3>
+        <p><strong>Email :</strong> brureach@gmail.com</p>
+        <p><strong>Tél :</strong> (+227) 92 23 00 25 / 84 50 74 34 / 90 56 50 40 / 92 86 30 20</p>
+        <p><strong>Adresse :</strong> Niamey, Niger</p>
+        <p><a class="cta" href="https://wa.me/22792230025" target="_blank" rel="noopener">Écrire sur WhatsApp</a></p>
+        <p class="note">Horaires : Lun–Ven 9h–18h (GMT+1)</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap">
+      <div>© <span id="year"></span> BRU REACH. Tous droits réservés.</div>
+      <div style="display:flex; gap:14px">
+        <a href="#">Mentions légales</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
