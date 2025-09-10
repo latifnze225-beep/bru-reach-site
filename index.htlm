@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRU REACH - Optimisons vos projets</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+    }
+    nav {
+      background: #0066cc;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #004080;
+      margin-bottom: 20px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .service {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .contact {
+      background: #004080;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .contact p {
+      margin: 5px 0;
+    }
+    footer {
+      background: #00264d;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BRU REACH</h1>
+    <p>OPTIMISONS VOS PROJETS</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>
+      BRU REACH est une entreprise basée à Niamey, Niger. 
+      Nous offrons des solutions innovantes dans le domaine des télécommunications, de la logistique, 
+      de l’installation et de la fourniture en génie civil.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>📡 Télécoms</h3>
+        <p>Installation et maintenance des réseaux télécoms modernes.</p>
+      </div>
+      <div class="service">
+        <h3>🚚 Logistique</h3>
+        <p>Solutions logistiques efficaces pour vos projets.</p>
+      </div>
+      <div class="service">
+        <h3>🔧 Installation</h3>
+        <p>Travaux d’installation professionnelle pour vos infrastructures.</p>
+      </div>
+      <div class="service">
+        <h3>🏗️ Génie Civil</h3>
+        <p>Fourniture et exécution de projets de génie civil.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <p>Email : <a href="mailto:brureach@gmail.com" style="color: #ffdd00;">brureach@gmail.com</a></p>
+    <p>Téléphone : (+227) 92 23 00 25 / 84 50 74 34 / 90 56 50 40 / 92 86 30 20</p>
+    <p>Adresse : Niamey, Niger</p>
+  </section>
+
+  <footer>
+    &copy; 2025 BRU REACH - Tous droits réservés.
+  </footer>
+</body>
+</html>
